@@ -1,8 +1,9 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
 .main {
     width: 100%;
     background-position: center;
@@ -10,6 +11,26 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     
 }
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;;
+}
+
+
+
+/* Main content */
+#main {
+    background-color: none;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    min-height: 100vh;
+}
+
 
 .navbar {
     width: 1200px;
@@ -63,4 +84,36 @@ ul li a{
 
 ul li a:hover{
     color: #ff7300df;
+}
+
+
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
 }
