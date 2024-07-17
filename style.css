@@ -1,15 +1,11 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.main {
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    
 }
 
 /* General styles */
@@ -18,102 +14,92 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+    border-bottom: 0px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 0px solid #3a3a3a;
+}
 
 /* Main content */
-#main {
-    background-color: none;
+main {
+    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    min-height: 100vh;
+    
 }
 
-
-.navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-
-.logo {
-    color: rgb(244, 126, 8);
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px
-}
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: #ff7300df;
-}
-
-
-
-.footerContainer{
+#hero-image {
+    height: 600px;
     width: 100%;
-    padding: 70px 30px 20px ;
+    background-color: aqua;
 }
-.socialIcons{
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
     display: flex;
     justify-content: center;
 }
-.socialIcons a{
+
+.socialIcons a {
     text-decoration: none;
-    padding:  10px;
+    padding: 10px;
     background-color: white;
     margin: 10px;
     border-radius: 50%;
 }
-.socialIcons a i{
+
+.socialIcons a i {
     font-size: 2em;
     color: black;
-    opacity: 0,9;
+    opacity: 0, 9;
 }
+
 /* Hover affect on social media icon */
-.socialIcons a:hover{
-    background-color: #111;
+.socialIcons a:hover {
+    background-color: #ff7300df;
     transition: 0.5s;
 }
-.socialIcons a:hover i{
+
+.socialIcons a:hover i {
     color: white;
     transition: 0.5s;
 }
