@@ -97,17 +97,24 @@ main {
     width: 100%;
     background: url(th.webp) no-repeat center center/cover;
     position: relative;
-    
+
 }
 
-#calisthenics-explain>div
-#benefits-of-calisthenics>div {
+#calisthenics-explain>div #benefits-of-calisthenics>div {
     line-height: 20px;
     margin-bottom: 20px;
-    text-align:center
+    text-align: center
 }
 
+/* Gallery page */
+#pictures img {
+    width: 100%;
+    line-height: 1em;
+}
 
+#pictures {
+    line-height: 0;
+}
 
 .footerContainer {
     width: 100%;
@@ -144,6 +151,13 @@ main {
     transition: 0.5s;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -192,7 +206,20 @@ main {
         text-align: left;
         font-size: 280%;
     }
-    
+
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        background: url(th.webp) no-repeat center center/cover;
+        position: relative;
+        background-size: cover;
+
+    }
+
+    /* Gallery */
+    #pictures {
+        column-count: 2;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -201,6 +228,11 @@ main {
         border-bottom: 1px solid #3a3a3a;
         background-color: #ff7300df;
 
+    }
+
+     /* Gallery */
+     #pictures {
+        column-count: 3;
     }
 
 }
