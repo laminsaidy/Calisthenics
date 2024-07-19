@@ -95,7 +95,7 @@ main {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(th.webp) no-repeat center center/cover;
+    background: url("cg.jpg") no-repeat center center/cover;
     position: relative;
 
 }
@@ -210,7 +210,7 @@ main {
     #hero-image {
         height: 600px;
         width: 100%;
-        background: url(th.webp) no-repeat center center/cover;
+        background: url("cg.jpg") no-repeat center center/cover;
         position: relative;
         background-size: cover;
 
@@ -230,8 +230,8 @@ main {
 
     }
 
-     /* Gallery */
-     #pictures {
+    /* Gallery */
+    #pictures {
         column-count: 3;
     }
 
