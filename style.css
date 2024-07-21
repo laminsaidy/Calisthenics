@@ -135,7 +135,8 @@ main {
 }
 
 #contact-us {
-    width: 700px;
+    width:100%;
+    max-width: 700px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -177,8 +178,7 @@ main {
 #contact-us h2 {
     color: #fff;
     font-weight: 300;
-    width: 600px;
-    margin-top: 20px;
+    margin-top: 20px 50px 0;
 }
 
 #contact-us textarea {
@@ -188,7 +188,7 @@ main {
     color: #fff;
     font-weight: 200;
     font-size: 20px;
-    padding: 10px;
+    margin: 0 50px;
     outline: none;
     min-height: 90px;
     max-height: 90px;
@@ -256,22 +256,6 @@ main {
     transition: 0.5s;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Contact Form */
-    .contact-container {
-        background-position: center;
-        position: relative;
-    }
-
-    .contact-us {
-        max-width: 100%;
-        position: absolute;
-    }
-
-
-}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
