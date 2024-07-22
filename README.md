@@ -15,25 +15,25 @@ The landing page features an indoor Calisthenics Gym image with a training bar a
 # The Footer
 The footer section features all the social media sites of the website. Each link will direct you to your **prefered** social media site.  
 The social mdeia sites allows you to stay intouch with some workout members, training tips and daily updates on the training schedules.    
-<img src="pictures/socialicons.png" 
+![screenshot footer](pictures/socialicons.png)
 
 # Gallery
 The gallery section contains all the pictures from different workout members, training locations, athletes doing different training skills. It gives the user some clues on how Calisthenics exercises looks like and what to expect.
-<img src="pictures/gallery.png" 
+![screenshot gallery](pictures/gallery.png) 
 
 # Contact
 In the contact section, the user will be asked to enter their fullname, email and mobile number. The ' write your message here..' section allows the user to send us any relevant comments and questions about Calisthenics workouts. After entering all your details, the user can press the send button (with an orange hovering effect) and we will get intouch as quickly as possible.
-<img src="pictures/contact.png" 
+![screenshot contact](pictures/contact.png)
 
 # Future ideas
 <li>An event scheduling section</li>
 <li>A sign up section</li>
 
 # Testing
-Tested on different devices and browsers
-Tested all links
-Tested form
-Made sure images load
+1. I have tested the website on different devices and browsers and it works well.
+2. All the links are tested 
+3. I have tested all the forms as well without any problems
+4. All the images load well on the web and in all screen sizes
 # Validator testing
 HTML
 - No errors were returned when passing through the official [Nu HTML CHECKER](https://validator.w3.org/nu/#textarea)
