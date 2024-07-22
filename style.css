@@ -1,4 +1,3 @@
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
@@ -124,103 +123,91 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.contact-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: normal;
-    background: url("images/pics/cbgi.jpg") no-repeat center/cover;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-}
-
-#contact-us {
-    width:100%;
-    max-width: 700px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    background: rgba(65, 121, 105, 0.048);
-    backdrop-filter: blur(30px);
-    flex-wrap: wrap;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-}
-
-#contact-us h1 {
+* contact css */ .contact {
     color: white;
-    font-weight: 700;
-    line-height: 2;
-    margin-top: 20px;
-    width: 500px;
+    background-color: rgb(207, 214, 207);
+    width: 100%;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-#contact-us input {
-    width: 300px;
-    height: 50px;
-    padding-left: 10px;
+.contact-map {
+    width: 100%;
+    height: 600px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.field {
+    color: white;
+    width: 100%;
+    background-color: rgb(207, 214, 207);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+input:focus {
     outline: none;
-    border: none;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
 }
 
-#contact-us input::placeholder {
-    color: #fff;
-}
-
-#contact-us h2 {
-    color: #fff;
-    font-weight: 300;
-    margin-top: 20px 50px 0;
-}
-
-#contact-us textarea {
-    background: none;
-    border: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-    font-weight: 200;
-    font-size: 20px;
-    margin: 0 50px;
+textarea:focus {
     outline: none;
-    min-height: 90px;
-    max-height: 90px;
-    min-width: 620px;
-    max-width: 620px;
 }
 
-#contact-us h2 {
-    font-size: 20px;
+.textarea {
+    min-height: 150px;
 }
 
-#button {
+.btn {
+    color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    font-size: 1.1rem;
     border: none;
-    background: #fff;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-weight: 600;
-    font-size: 24px;
-    color: #000;
-    width: 200px;
-    height: 60px;
-    padding: 0;
-    margin-bottom: 30px;
-    transition: 0.3s;
+    outline: none;
+    cursor: none;
+    border-radius: 20px;
 }
 
-#button:hover {
-    background: #ff7300df;
-    color: #fff;
-    transition: .3s ease-in-out;
+.btn:hover {
+    background-color: #ff7300df;;
 }
+
+.informations strong {
+    display: inline-block;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+label {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 
 .footerContainer {
     width: 100%;

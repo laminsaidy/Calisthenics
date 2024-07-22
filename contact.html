@@ -50,21 +50,27 @@
     <!--Main content-->
     <main>
 
-        <div class="contact-container">
-
-            <form id="contact-us">
-                <h1>Contact Us</h1>
-                <input type="text" id="firstName" placeholder="First Name" required>
-                <input type="text" id="lastName" placeholder="Last Name" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="text" id="mobile" placeholder="Mobile" required>
-                <h2>Write Your Message Here...</h2>
-                <textarea required></textarea>
-                <input type="submit" value="Send" id="button">
-            </form>
-        </div>
-
-
+        <section class="contact" id="contact">
+            <div class="contact-box">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12012.882847343928!2d-8.616944!3d41.173353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465b35a55d84b%3A0xecbba80e76cef682!2sClub%20Sportivo%20Nun&#39;Alvares!5e0!3m2!1spt-PT!2sde!4v1715678661747!5m2!1spt-PT!2sde"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        alt="route-location">
+                    </iframe>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                        <input name="name" required type="text" class="field" placeholder="Your Name">
+                        <input name="email" required type="email" class="field" placeholder="Your E-mail">
+                        <input name="number" required type="number" class="field" placeholder="Your Phone">
+                        <textarea name="message" placeholder="Message" class="field"></textarea>
+                        <button class="btn" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer-->
@@ -86,5 +92,3 @@
 </body>
 
 </html>
-
-   

@@ -30,7 +30,10 @@ In the contact section, the user will be asked to enter their fullname, email an
 <li>A sign up section</li>
 
 # Testing
-hgfgh
+Tested on different devices and browsers
+Tested all links
+Tested form
+Made sure images load
 # Validator testing
 HTML
 - No errors were returned when passing through the official [Nu HTML CHECKER](https://validator.w3.org/nu/#textarea)
@@ -48,7 +51,8 @@ Once the master branch has been selected, the page will be automatically refresh
 ### Content
 1. The text on the home page was taking from wikipedia Article A
 2. The Favicon and the social media icons were taking from [Font-awesome](https://fontawesome.com)
-3. The styling of the Gallery images was taking from 
+3. The styling of the Gallery images was taking from [Unsplash](https://unsplash.com)
 
 ### Media
-<li>The image used on the home page, on the contact background form and the images in the gallery section was taking from this open site source  https://unsplash.com/s/photos/street-workouts</li>
+The image used on the home page, on the contact background form and the images in the gallery section was taking from this open site source [Unsplash](https://unsplash.com)
+
